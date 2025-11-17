@@ -1,0 +1,14 @@
+/* Reset root styles for proper layout */
+#root {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove conflicting styles that break the layout */
+/* The .logo and .card styles have been removed as they conflict with Tailwind */
+
+.read-the-docs {
+  color: #888;
+}
